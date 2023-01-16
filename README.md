@@ -14,6 +14,7 @@ This is a Django-based chatbot server that _takes user queries_ and routes them 
 
 - Python 3.x
 - Django
+- Sentence-Transformers 2.x
 
 ### Installation
 
@@ -25,6 +26,6 @@ This is a Django-based chatbot server that _takes user queries_ and routes them 
 1. Run migrations: `python manage.py migrate`
 2. Start the server: `python manage.py runserver`
 3. The server will be running at http://localhost:8000
-4. Goto http://localhost:8000/ask_question/ with
-    i. `GET `request to get all the queries and answers
-    ii. `POST` request ( with qeustion) to get the answer of the question
+4. Goto http://localhost:8000/ask_question/ with 
+    1. `GET `request to get all the queries and answers
+    2. `POST` request ( with qeustion) to get the answer of the question
